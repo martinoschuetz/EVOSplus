@@ -1,0 +1,100 @@
+#!/bin/csh
+
+#
+# Checking arguments
+#
+if ( $#argv != 1 )  then
+  echo "USAGE: dasa_eval >Ind-No<"
+  echo "       one numerical argument must be given"
+  exit
+endif
+
+unalias cd
+unalias cp
+unalias mv
+
+#
+# directory control: the following directories are used by dasa_eval
+#
+# INPUT_DIR:
+#      the directory dasa_eval copies the designVariables_In.dat 
+#      file from to the local /tmp directory which is unique for 
+#      each process
+#
+# OUTOUT_DIR:
+#      the directory dasa_eval copies the output-files 
+#      (designObjectives_Out.dat, surf_pres_ld) to when 
+#      the simulator has finished
+#
+# TMP_DIR:
+#      the name of a unique directory which is built in the 
+#      /tmp directory; here the simulator is copied to from the 
+#      $HOME directory, untared and executed;
+#      the name consists of "Dasa-" and the process ID of the current 
+#      dasa_eval process.
+#
+set INPUT_DIR  = "$HOME/Act/$1"
+set OUTPUT_DIR = "$HOME/Act/$1"
+set TMP_DIR    = "Dasa-$$"
+
+echo " "
+echo "dasa_eval> INPUT_DIR   = " $INPUT_DIR
+echo "dasa_eval> OUTPUT_DIR  = " $OUTPUT_DIR
+echo "dasa_eval> TMP_DIR     = " $TMP_DIR
+
+
+#
+# Create simulator in /tmp and copy variables
+#
+cd    /tmp/
+mkdir $TMP_DIR
+cd    $TMP_DIR
+
+cp  $HOME/dasa.tar .
+tar xf dasa.tar
+cd  INGENET*
+
+cp $INPUT_DIR/designVariables_In.dat  .
+
+
+echo "dasa_eval> now calling >optimize -i< "
+
+
+#
+# Testing ...
+#       for tests uncomment the following and comment the "optimize" command:
+#
+# touch designObjectives_Out.dat
+# echo "22" > designObjectives_Out.dat
+# touch surf_pres_ld
+# echo "blablabla" > surf_pres_ld
+# sleep 30
+optimize -i
+
+
+
+#
+# Save output-file to OUTPUT_DIR
+#
+mv designObjectives_Out.dat $OUTPUT_DIR/
+mv surf_pres_ld $OUTPUT_DIR/
+
+#
+# special stuff for naujoks' software
+#
+#cd $OUTPUT_DIR/../
+#/usr/bin/echo "$2\t \c" >> results.out 
+#cat $2/designObjectives_Out.dat >> results.out
+
+
+
+
+
+#
+# Clear TMP_DIR and finished...
+#
+cd /tmp/
+/bin/rm -r $TMP_DIR
+
+echo "dasa_eval> ... finished."
+echo " "

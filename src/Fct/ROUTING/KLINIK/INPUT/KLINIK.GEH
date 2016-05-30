@@ -1,0 +1,26 @@
+/************************************************************************/
+/*  Dateiname  :  klinik.geh                                            */
+/*  Funktion   :  - Eingabe fuer die Routingberechnung                  */
+/*  Inhalt     :  - Gruppenaufteilung fuer gehenden Externverkehr       */
+/*  Anmerkung  :  Die Anlagennummer 0 repraesentiert den Amtsknoten.    */
+/************************************************************************/
+
+.BEGIN
+   1  Anzahl der Gruppen
+
+  10  Anzahl der Anlagen in  1. Gruppe
+
+Anlagen-   zugeh.
+nummer     Endanl.
+--------   --------
+       1          1
+       2          2
+       3          3
+       4          4
+       5          5
+       6          6
+       7          7
+       8          8
+       9          9
+      10         10
+.END

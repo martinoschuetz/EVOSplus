@@ -1,0 +1,356 @@
+0001  1
+Input file ################################################## not found.
+
+0002  2
+Der Kostenfaktor der Link #### (von #### zu ####) ist zu klein,
+und wird auf ###### gesetzt.
+
+0003  1
+Read file ################################################## OK.
+
+0004  1
+File ################################################## is not properly ended.
+
+0005  1
+Number of nodes inconsistent.
+
+0006  2
+Please change the const ROUTESIZE in file ######## to ##
+and then recompile the program.
+
+0007  1
+Data in file ################################################## is inconsistent.
+
+0008  6
+/************************************************************************/
+/* ord --- Optimal Routing and Dimensioning of private TK-Network       */
+/*         Programm started                                             */
+/*         at ########## on ##########                                  */
+/*         Version 3.000 of 31. Aug., 95.                               */
+/************************************************************************/
+
+0009  9
+Usage : ord netzname [-options]
+Options : I A O H N C 1
+I - Internal traffic does not overflow to office   (default : overflow  )
+A - Analyze a network designed by ord              (default : Design    )
+O - use One-moment traffic model                   (default : two-moment)
+H - under High load condition                      (default : normal    )
+N - Normalize link cost factors                    (default : original  )
+1 - use single path for each node pair             (default : multipath )
+C - get more Check messages                        (default : minimal   )
+
+0010  2
+Enter network name and options to continue,
+or Ctrl-C to break :
+
+0011  1
+unknown option : # , ignored.
+
+0012  1
+Please enter the network name :
+
+0013  1
+Network ######## does not exist.
+
+0014  1
+Please enter overload  factor :
+
+0015  1
+Please enter GOS-relax factor :
+
+0016  1
+Loop in node pair ## to ## is found.
+
+0017  2
+Path from ## at ## to ## is illegal.
+
+0018  2
+Paths for node pair (##, ##):
+Link between ## and ## does not exist !!!
+
+0019  1
+There are ###### paths containing ###### links.
+
+0020  2
+Please change the const MAX_PATH in file ########## to ######
+and then recompile the program.
+
+0021  2
+Please change the const MAX_PLNK in file ########## to ######
+and then recompile the program.
+
+0022  1
+Note : #### Loop(s) removed.
+
+0023  21  (netzname.lnl.rd)
+/************************************************************************/
+/* Dateiname :  dirname/filename                                        */
+/* Funktion  :  - Ausgabe von ODM/ORD und Eingabe fuer PKA              */
+/* Inhalt    :  - Topologie des gesamten Netzes                         */
+/*              - Grundkosten und Kostenfaktor                          */
+/*              - Stuecklungsgroesse                                    */
+/*              - Buendelgroesse fuer Normallast                        */
+/*              - Anzahl der reservierten trunks                        */
+/*                                                                      */
+/* Anmerkungen :     Die Knotennummer 0 repraesentiert dem Amtknoten.   */
+/*                   Die mit dem Amtknoten direkt verbundenen Links     */
+/*                   haben keine reservierte trunk ( Anzahl = 0 )       */
+/************************************************************************/
+
+.BEGIN
+###### Anzahl der Links
+###### Anzahl der Knoten
+
+Link-   von     zu      Grund-  Kosten- Modul-  Buendel-  TR-      NUCs-
+nummer  Anlage  Anlage  kosten  faktor  groesse groesse   Kanaele  kanaele
+------  ------  ------  ------  ------  ------  --------  -------  -------
+
+0024  1
+.END
+
+0025  18 (netzname.rdo)
+/************************************************************************/
+/* Dateiname :  dirname/filename                                        */
+/* Funktion  :  Ausgabe von ODM/ORD                                     */
+/* Inhalt    :  - Buendelgroesse                                        */
+/*              - Linkblockierung                                       */
+/*              - Verkehrsangebot der Link (m: Mittelwert v: Varianz)   */
+/*              - Verkehrsbelastung der Link (m: Mittelwert)            */
+/*              - Untergrenze fuer die Linkgroesse                      */
+/*              - Verkehrsangebot, GOS und Ende-zu-Ende Blockierung     */
+/*                fuer jedes Verkehrspaar                               */
+/*              - Linkkosten und Knotenkosten                           */
+/*              - Knoten-Gehende & Kommende Blockierung (KEB & EKB)     */
+/*              - gesammte Linkkosten                                   */
+/*              - gesammte Knotenkosten                                 */
+/*              - gesammte Netzkosten                                   */
+/* Anmerkung : Alle Kosten in KE (Kosten Einheit)                       */
+/************************************************************************/
+
+0026  8
+.BEGIN
+####### Anzahl der Anlagen
+####### Anzahl der Links
+####### Anzahl der Verkehrspaar
+
+Link-   Anlage- Anlage- Buendel Link    Verkehrsangebot Belast. Unter.  NUCs
+nummer  nummer  nummer  groesse Block.    m        v      m     grenze  kanaele
+------  ------  ------  ------  ------  ------  ------  ------  ------  -------
+
+0027  3
+Anlage- Anlage- Verkeh.  LCR     Ueber    GOS-     Reale
+nummer  nummer  Angebot Angebot   Amt     Vorgabe   EEB
+------  ------  ------  ------   ------   ------   ------
+
+0028  3
+Link-   Anlage- Anlage- Kosten- Buendel Grund-  Link-
+nummer  nummer  nummer  faktor  groesse kosten  kosten
+------  ------  ------  ------  ------  ------  ------
+
+0029  3
+Anlage- Mittlere Mittlere
+nummer  KEB      EKB
+------  ------   ------
+
+0030  1
+Source program version :
+
+0031  1
+Network name         : ########
+
+0032  1
+Overflow over office : ####
+
+0033  1
+Traffic condition    : Highload
+
+0034  1
+Load factor          : ######
+
+0035  1
+GOS  factor          : ######
+
+0036  1
+Traffic condition    : Normal
+
+0037  1
+Traffic model        : One-moment
+
+0038  1
+Traffic model        : Two-moment
+
+0039  1
+Cost factors         : Normalized
+
+0040  1
+Cost factors         : Original
+
+0041  1
+Max no. of paths     : not limited
+
+0042  1
+Max no. of paths     : ###
+
+0043  3
+Knoten- Anlagen-   Software-   Prozessor-           Prozessorlast
+nummer    typ       version       typ        BHCA  Verm. Grdl. Grdlt.Summe
+------- ---------- --------- -------------- ------ ----- ----- ----- -----
+
+0044  1
+Mittlere Netz-EEB : ########
+
+0045  1
+Gesammte Link-Kanalkosten    : ##########
+
+0046  1
+Gesammte Link-Grundkosten    : ##########
+
+0047  2
+Iter.  Untergre-    Kanal-  Bestueckl-
+index  nzekosten    kosten  ungskosten
+
+0048  10  (netzname.nrt.rd)
+/************************************************************************/
+/* Dateiname :  dirname/filename                                        */
+/* Funktion  :  - Ausgabe von ord                                       */
+/* Inhalt    :  - Extended SOC Routingtabelle                           */
+/* Anmerkungen :     Die Knotennummer 0 repraesentiert den Amtsknoten   */
+/************************************************************************/
+
+.BEGIN
+####### Anzahl der Anlagen
+####### Anzahl der Verkehrspaare
+
+0049  1
+Iter. LBD_cost    LNK_cost    MOD_cost Overflow_cost
+
+0050  1
+Max(EEB/GOS) = ####### for pair (##, ##)
+
+0051  1
+Link ### was enhanced for pair (###, ###)
+
+0052  2
+*** Error in local expansion : 
+origin = ### destin = ### link_no = ### Blocking = ######
+
+0053  1
+Performing local expansion ...
+
+0054  1
+Performing local trimming ...
+
+0055  1
+Trimming link ### failed.
+
+0056  1
+Trimming link ### succeded.
+
+0057  1
+Local trimming has ## times succeeded.
+
+0058  1
+link from to  Size   Offer Carry  Blocking LBD refer upcost dwcost Metric
+
+0059  1
+Converged with ## iterations, total time used : #### min.
+
+0060  1
+Converged with ## iterations, total time used : #### sec.
+
+0061  1
+Lcost = ########## Pen_EEB = ######### Pen_LBD = ########
+
+0062  1
+End cost = ############ units.
+
+0063  1
+Calculating processor loads ... 
+
+0064  13
+/************************************************************************/
+/* Dateiname :  dirname/filename                                        */
+/* Funktion  :  Ausgabe von odm/ord und Eingabe fuer pka                */
+/* Inhalt    :  - Anlagentyp, Softwareversion, Prozessortyp,            */
+/*              - Grundkosten                                           */
+/************************************************************************/
+
+.BEGIN
+####### Anzahl der Anlagen
+
+Anlagen-    Anlagen-     Software-      Prozessor-       Grundkosten 
+ nummer       typ         version         typ
+-------- -------------- ----------- ------------------- --------------
+
+0065  1
+Link from to    Size MeanOffer VarOffer Blocking BlockCome Gradient LBD LBD_act
+
+0066  1
+Iter. Len_grad  Max_step  Opt_step   LNKcost   Pen_EEB   Pen_LBD   Total  Time
+
+0067  6
+/************************************************************************/
+/* odm --- Optimal Dimensioning of private TK-Network                   */
+/*         Programm started                                             */
+/*         at ########## on ##########                                  */
+/*         Version 3.000 of 31. Aug., 95.                               */
+/************************************************************************/
+
+0068  9
+Usage : odm netzname [-options]
+Options : I A O H N C 1
+I - Internal traffic does not overflow to office   (default : overflow  )
+A - Analyze a network designed by odm              (default : Design    )
+O - use One-moment traffic model                   (default : two-moment)
+H - under High load condition                      (default : normal    )
+N - Normalize link cost factors                    (default : original  )
+1 - use single path for each node pair             (default : multipath )
+C - get more Check messages                        (default : minimal   )
+
+0069  1
+Dead path from ## at ## to ##
+
+0070  1
+Gesammte Overflowkosten      : ##########
+
+0071  15  (netzname.akb)
+/************************************************************************/
+/*  Dateiname  :  bmw.akb                                               */
+/*  Funktion   :  - Eingabe fuer ODM, ORD und PKA                       */
+/*  Inhalt     :  - Kostenmatrix des Amtsknotens                        */
+/*                - Blockierungsmatrix des Amtsknotens                  */
+/************************************************************************/
+
+.BEGIN
+####  Anzahl der Anlagen
+####  Anzahl der Gruppen
+####  Geschaeftstage pro Monat
+
+        Hvs-
+Anlage  Faktor
+------  ------
+
+0072  3
+von     zu      Kosten    Kosten-   Amts-
+Gruppe  Gruppe  pro Min.  faktor    block.
+------  ------  -------  ---------  ------
+
+0073  1
+Random level         : ##
+
+0074  1
+Improving topology ...
+
+0075  1
+Trimming link ### failed.
+
+0076  1
+Trimming link ### succeded.
+
+0077  1
+Improving topology has removed ## link(s).
+
+0078  1
+Einsparung durch LCR-Verkehr : ##########
+

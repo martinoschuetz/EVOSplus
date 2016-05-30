@@ -1,0 +1,1494 @@
+0001  2  {Eingabe Texte}
+*** Die maximale Anlagenzahl wurde ueberschritten! ***
+Es muessten die Konstanten "MAX_ANL" und "MAX_ANL1" erhoeht werden
+  
+0002  3
+*** Die maximale Laenge des Weges zwischen 2 Anlagen wurde ***
+*** ueberschritten!                                        ***
+Es muessten die Konstanten "MAX_TEILWEG" und "MAX_TEILWEG1" erhoeht werden
+  
+0003  8
+Sollen die Eingaben fuer spaetere Wiederbenutzung in eine
+Datei gespiegelt werden ?
+JA ----> 1 / NEIN ----> 0
+Falls Sie ein Netz mit geringfuegigen Aenderungen mehrmals berechnen
+wollen, geben Sie hier am besten 'JA' ein.
+Sie koennen die enstandene Datei dann  abaendern, wobei die mit '$*'
+gekennzeichneten Kommentare als Anhaltspunkte dienen.
+Es ist moeglich eigene Kommentare in die Spiegel-Datei einzufuehren.
+  
+0004  2
+Werden die Ausgaben in eine Datei gewuenscht (sonst auf den Bildschirm) ?
+JA ----> 1 / NEIN ----> 0
+  
+0005  1
+Wie heisst das Projekt ?
+  
+0006  1
+Bitte Gesamtanzahl der Anlagen im Netz angeben.
+  
+0007  2
+Ist die Anlage ### Endanlage ?
+JA ----> 1 / NEIN ----> 0
+  
+0008  4
+Bitte geben Sie ein, ob
+  alle diese Anlagen Endanlagen sind = 1
+  keine dieser Anlagen Endanlage ist = 2
+  sonst ............................ = 3
+  
+0009  2
+Sind die Nummern der Anlagen fortlaufend ?
+JA ----> 1 / NEIN ----> 0
+  
+0010  1
+Niedrigste Nummer, der einzugebenden Anlagen.
+  
+0011  1
+*** Bereich enhaelt nicht existierende Anlagennummern! ***
+  
+0012  2
+*** Eine Anlage wurde doppelt eingegeben! ***
+  
+  
+0013  1
+Geben Sie die Nummer der Anlage ein.
+  
+0014  1
+Geben Sie die Nummer der ###. Anlage ein.
+  
+0015  1
+*** Falsche Anlagennummer! ***
+  
+0016  2
+  
++++ Eingabe des Knotens +++
+  
+0017  2
+Es ist ein beliebiger alpha-numerischer Text mit maximal 65 Zeichen
+zugelassen. Der Text erscheint im Kopf der Ausgabe
+  
+0018  1
++++ Eingabe der vollvermaschten obersten Netzebene +++
+  
+0019  4
++++ Eingabe der obersten Netzebene +++
+Geben Sie an, ob die oberste Netzebene aus
+  einer Anlage besteht ................... = 1
+  mehreren vollvermaschten Anlagen besteht = 2
+  
+0020  1
++++ Ende der Eingabe des Knotens +++
+  
+0021  2
+Aus wievielen Anlagen besteht die oberste Netzebene ?
+(1 bis ###)
+  
+0022  1
++++ Ende der Eingabe der vollvermaschten obersten Netzebene +++
+  
+0023  2
+*** Es wurden zu wenig Anlagen eingegeben! ***
+  
+  
+0024  1
++++ Eingabe der Anlagen, die an Anlage ### haengen +++
+  
+0025  2
+Wieviele Anlagen haengen an der Anlage ### ?
+(0 bis ###)
+  
+0026  3
+Im folgenden werden der Reihe nach die vollvermaschten Teilnetze
+eingegeben, die an Anlage ### haengen.
+Eingabe des ersten vollvermaschten Teilnetzes.
+  
+0027  1
+Eingabe des naechsten vollvermaschten Teilnetzes.
+  
+0028  3
+Im folgenden werden der Reihe nach die verschiedenen Teilnetze
+eingegeben, die an Anlage ### haengen.
+Ist das erste Teilnetz
+  
+0029  1
+Ist das naechste Teilnetz, das an Anlage ### haengt,
+  
+0030  3
+  vollvermascht   = 1
+  sternfoermig    = 2
+  nur eine Anlage = 3
+  
+0031  2
+Aus wievielen Anlagen besteht das vollvermaschte Teilnetz ?
+(0 bis ###)
+  
+0032  2
+Aus wievielen Anlagen besteht das sternfoermige Teilnetz ?
+(0 bis ###)
+  
+0033  1
+Eingabe der letzten Anlage, die an Anlage ### haengt.
+  
+0034  1
++++ Ende der Eingabe der Anlagen, die an Anlage ### haengen +++
+  
+0035  1
+Ueber wieviele Anlagen fuehrt dieser Weg (DIREKT = 0) ?
+  
+0036  1
+Geben Sie die Nummer der ###. Anlage ein.
+  
+0037  3
+Soll sich der Netzverkehr innerhalb der logischen Einheit ## gleichmaessig
+verteilen oder wird fuer die Anlagen eine hoehere Konzentration gewuenscht?
+ Konzentration ----> 1 / gleichmaessige Verteilung ----> 0
+  
+0038  2
+Wollen Sie das eben eingegebene Netz an einigen Stellen modifizieren ?
+JA ----> 1 / NEIN ----> 0
+  
+0039  3
+Wollen Sie einen
+  gerichteten Weg (von - nach) aendern ............ = 1
+  Weg (beide Richtungen) zwischen 2 Anlagen aendern = 2
+  
+0040  1
+Geben Sie die 1. Anlage ein.
+  
+0041  1
+Geben Sie ein bei welcher Anlage der Weg beginnt.
+  
+0042  1
+*** Nicht existierende Anlagennummer! ***
+  
+0043  1
+Geben Sie die 2. Anlage ein.
+  
+0044  1
+Geben Sie ein bei welcher Anlage der Weg endet.
+  
+0045  6
+Wuerde sich der, in der logischen Einheit ## verbleibende Netzverkehr
+gleichmaessig verteilen, blieben in der Anlage ###, der "groessten"
+Anlage in der log. Einheit, ######% des gesamten von ihr erzeugten
+Netzverkehrs.
+Bitte geben Sie die "Konzentration" ###### <= Konzentration <= ######
+ein.
+  
+0046  1
+Geben Sie den Weg von der 1. Anlage zur 2. Anlage ein.
+  
+0047  2
+Wollen Sie noch weitere Wege modifizieren ?
+JA ----> 1 / NEIN ----> 0
+  
+0048  7
+Bitte Netztopologie eingeben.
+  Ein vollvermaschtes Netz ........................ = 1
+  Ein Sternnetz ................................... = 2
+  Einstufig verknuepfte vollvermaschte Teilnetze .. = 3
+  Einstufig verknuepfte sternfoermige Teilnetze ... = 4
+  Mehrstufig verknuepfte Teilnetze ................ = 5
+  Sie geben die Wege zwischen den Anlagen selbst an = 6
+  
+0049  1
++++ Eingabe des Weges von Anlage ### zu Anlage ### +++
+  
+0050  1
++++ Ende der Eingabe dieses Weges +++
+  
+0051  3
+Soll die Matrix der Wege innerhalb des Netzes in eine Datei ausgegeben
+werden ?
+JA ----> 1 / NEIN ----> 0
+  
+0052  2
+Soll die Netztopologie ausgegeben werden ?
+JA ----> 1 / NEIN ----> 0
+  
+0053  1
+Bitte den Namen fuer Anlage ### eingeben.
+  
+0054  4
+Wieviele Endgeraete mit DIREKTRUF-Funktion und CHESE-Teilnehmer sind an
+Anlage ### installiert?
+(Die CHESE-Teilnehmer werden wie Direktrufteilnehmer behandelt.
+ Eine CHESE x/y gilt als (x+y) Direktrufteilnehmer !)
+       
+0055  1
+*** Falsche Eingabe! ***
+  
+0056  6
+"Logische Einheit" bedeutet, dass eine Gruppe von Anlagen untereinander
+engere Verkehrsbeziehungen hat als zu den restlichen Anlagen des Netzes.
+Die Gruppe verhaelt sich gegenueber dem Aussenstehenden wie eine einzige
+Anlage. In einem grossen Netz koennen auch mehrere "logische Einheiten"
+definiert werden. Es darf dann aber keine Anlage zu zwei logischen Ein-
+heiten zugleich gehoeren !.
+  
+  
+0057  2
+Wieviele logische Einheiten bestehen im Netz ?
+ ( Anzahl <= ## )
+  
+0058  2
+Wieviele Anrufuebernahmegruppen sind in Anlage ### eingerichtet ?
+  (Anzahl <= 1000).
+  
+0059  2
+Wieviele Teilnehmer hat die Gruppe ?
+  (Anzahl <= 25).
+  
+0060  1
+*** Falsche AUN-Gruppengroesse! ***
+  
+0061  2
+Wieviele Teilnehmer hat die groesste Gruppe ?
+(Groesse <= 25)
+  
+0062  1
+Wieviele Gruppen haben ## Teilnehmer ?
+  
+0063  1
+Bitte ##. Anlage in log. Einheit ## angeben.
+  
+0064  2
+Sind alle Anlagen mit dem selben Rechnertyp ausgestattet?
+ JA -----> 1 / NEIN -----> 0
+  
+0065  2
+Laufen alle Anlagen mit der selben Softwareversion ?
+ JA -----> 1 / NEIN -----> 0
+  
+0066  1
+Wieviele Anlagen sollen Namen bekommen ?
+  
+0067  2
+Wieviele Anlagen haben Endgeraete mit DIREKTRUF-Funktion  und/oder
+CHESE-Teilnehmer installiert?
+  
+0068  2
+Die Anlage wurde bereits einmal angegeben oder die Nummer ueber-
+schreitet die urspruenglich angegebene Anlagenzahl.
+  
+0069  1
+Wieviele Anlagen haben Anrufuebernahmegruppen eingerichtet ?
+  
+0070  7   {    fuer HICOM600   }
+Folgende Software-Versionen stehen zur Verfuegung:
+  V1 ...................................................1
+  V2.1 .................................................2
+  V2.2 .................................................3
+  V3.1 .................................................4
+  V3.2 .................................................5
+  V3.3 .................................................6
+ 
+0071  1
+*** Es wurde die urspruenglich angegebene Anlagenzahl ueberschritten ***
+  
+0072  1
+Bitte Nummer der ###. Anlage eingeben.
+  
+0073  2
+Wieviel Prozent, des in der logischen Einheit erzeugten Netzverkehrs
+bleiben in der logischen Einheit ?
+  
+0074  4
+Geben Sie an,
+  ob keine Anlage einen Namen haben soll = 1
+  nur einige Anlagen Namen haben sollen  = 2
+  alle Anlagen Namen haben sollen ...... = 3
+  
+0075  2
+Haben alle Anlagen gleichviele Sprachteilnehmer ?
+JA ----> 1 / NEIN ----> 0
+  
+0076  1
+Bitte Anzahl der Sprachteilnehmer eingeben.
+  
+0077  1
+Bitte Anzahl der Sprachteilnehmer fuer Anlage ### eingeben.
+  
+0078  2
+Bitte Anlagentyp eingeben.
+( 0 = Kennziffern nochmal ausgeben)
+  
+0079  2
+Bitte Anlagentyp fuer Anlage ### eingeben.
+( 0 = Kennziffern nochmal ausgeben)
+  
+0080  2
+Wollen Sie auch die Rechnerbelastung der Anlagen berechnet haben ?
+JA ----> 1 / NEIN ----> 0
+  
+0081  3
+Haben alle Anlagen das gleiche Verhaeltnis zwischen angeschlossenen
+ANATEs und DIGITEs ?
+JA ----> 1 / NEIN ----> 0
+  
+0082  1
+Bitte Prozentsatz der ANATEs eingeben.
+  
+0083  1
+Bitte Prozentsatz der ANATEs fuer Anlage ### eingeben.
+  
+0084  7
+Soll mit Standardwerten fuer mittlere Belegungsdauern fuer Teilnehmer
+und fuer Vermittlungsplaetze gerechnet werden ?
+  Standardwert fuer anlageninternen Verkehr ... =  50 sec.
+  Standardwert fuer anlagenexternen Netzverkehr = 100 sec.
+  Standardwert fuer Externverkehr ............. = 110 sec.
+  Standardwert fuer den Vermittlungsplatz ..... =  20 sec.
+JA ----> 1 / NEIN ----> 0
+  
+0085  1
+Bitte mittlere Belegungsdauer fuer anlageninternen Verkehr eingeben.
+  
+0086  1
+Bitte mittlere Belegungsdauer fuer anlagenexternen Netzverkehr eingeben.
+  
+0087  1
+Bitte mittlere Belegungsdauer fuer Externverkehr eingeben.
+  
+0088  3
+  
+Besteht das Netz aus lauter Anlagen vom selben Typ ?
+JA ----> 1 / NEIN ----> 0
+  
+0089  10
+Folgende Anlagentypen stehen zur Auswahl:
+  HICOM80CM .................................................1
+  HICOM600 (<==> HICOM330, HICOM340, HICOM350, HICOM360,
+             HICOM370) ......................................2
+  HICOM3000 (<==> HICOM390, HICOM391) .......................3
+  CBX97751  (<==> HICOM600 USA) .............................4
+  HICOM4100 (KN_SWITCH) .....................................5
+  EMS12000 ..................................................6
+  Sonstiges .................................................7
+  Fuer den Fall "Sontiges" wird keine Rechnerbelastung ermittelt !
+  
+0090  3
+Wollen Sie noch eine Zeile Kommentar eingeben?
+(max. 5 Zeilen)
+ JA ----> 1 / NEIN ----> 0
+  
+0091  1
+Sind digitale Endgeraete mit Direktruf-Funktion und/oder CHESE-Teilnehmer
+  
+0092  2
+Fuer welche logische Einheit wollen Sie den Prozentsatz des Netzverkehrs
+angeben, der in der logischen Einheit bleiben soll ?
+  
+0093  1
+Sind Anrufuebernahmegruppen
+  
+0094  6       {fuer HICOM3000 }
+Folgende Softwareversionen stehen zur Verfuegung
+ V1 ...........................................1
+ V2.3 .........................................2
+ V3.1 .........................................3
+ V3.2 .........................................4
+ V3.3 .........................................5
+  
+0095  3
+  an keiner Anlage vorhanden ......... = 1
+  an einigen Anlagen im Netz vorhanden = 2
+  an allen Anlagen im Netz vorhanden   = 3
+  
+0096  2
+Bitte den Verkehrswert pro Sprachteilnehmer fuer Netzverkehr eingeben.
+(Dezimalzahl <= 1.000)
+  
+0097  3
+Bitte den Verkehrswert pro Sprachteilnehmer fuer Netzverkehr fuer Anlage ###
+eingeben.
+(Dezimalzahl <= 1.000)
+  
+0098  2  {fuer CBX97751 <===> HICOM600 USA}
+Folgende Softwareversionen stehen zur Verfuegung
+ REL6..........................................1
+  
+0099  2
+Bitte den Verkehrswert pro Datenleitung fuer Netzverkehr eingeben.
+(Dezimalzahl <= 1.000)
+  
+0100  1
+Bitte mittlere Belegungsdauer  des Vermittlungsplatzes eingeben.
+  
+0101  5
+Soll innerhalb der Gruppe ## bzgl. kommenden Externverkehrs beim
+Vermitteln ueber VPL mit oder ohne "Rueckwaertsausloesen gerechnet
+werden ?
+ohne Rueckwaertsausloesen (bis einschl. V3.2) ----------- >  0
+mit Rueckwaertsausloesen (ab V3.3) ---------------------- >  1
+  
+0102  2
+Verhalten sich alle Sprachteilnehmer bzgl. Netzverkehr gleich ?
+JA ----> 1 / NEIN ----> 0
+  
+0103  3
+Sind in der Anlage digitale Endgeraete mit Direktruf-Funktion und/oder
+CHESE-Teilnehmer eingerichtet ?
+JA ----> 1 / NEIN ----> 0
+  
+0104  3
+Bitte den Verkehrswert pro Sprachteilnehmer fuer kommenden Externverkehr
+eingeben.
+(Dezimalzahl <= ######)
+  
+0105  3
+Bitte den Verkehrswert pro Sprachteilnehmer fuer kommenden Externverkehr
+fuer Anlage ### eingeben.
+(Dezimalzahl <= ######)
+  
+0106  6
+Wie ist die Verteilung der Vermittlungsplaetze in der Gruppe ## ?
+Haben alle Anlagen VPL's, oder haben nur einige Anlagen VPL's, oder
+ist nur eine Anlage mit VPL's ausgestattet?
+nur eine einzige Anlage .......................... 1
+nur einige Anlagen ............................... 2
+alle Anlagen ..................................... 3
+  
+0107  1
+Welche Anlage ist mit VPL's ausgestattet?
+  
+0108  1
+Welche Anlage erledigt den Platzverkehr fuer Anlage ### ?
+  
+0109  2
+!! Es wird angenommen, dass alle Teilnehmer digitale
+Teilnehmer sind. !!
+  
+0110  3
+Bitte den Verkehrswert pro Sprachteilnehmer fuer gehenden Externverkehr
+eingeben.
+(Dezimalzahl <= ######)
+  
+0111  3
+Bitte den Verkehrswert pro Sprachteilnehmer fuer gehenden Externverkehr
+fuer Anlage ### eingeben.
+(Dezimalzahl <= ######)
+  
+0112  1
+Teilnehmerverkehrswerte
+  
+0113  3 {fuer KN_SWITCH }
+Folgende Softwareversionen stehen zur Verfuegung
+ APS3 ........................1
+ APS4 ........................2
+  
+0114  1
+Anzahl logischer Einheiten
+  
+0115  1
+Bitte Softwareversion eingeben.
+  
+0116  2
+Verhalten sich alle Teilnehmer bzgl. kommenden Amtsverkehrs gleich ?
+JA ----> 1 / NEIN ----> 0
+  
+0117  2
+Verhalten sich alle Teilnehmer bzgl. gehenden Amtsverkehrs gleich ?
+JA ----> 1 / NEIN ----> 0
+  
+0118  1
+Verteilung der Vermittlungsplaetze in Gruppe ## .
+  
+0119  1
+Bitte Softwareversion fuer Anlage ### eingeben.
+  
+0120  12
+Wie verteilt sich der Netzverkehr ?
+  HOMOGEN ...................................................... = 1
+    HOMOGEN bedeutet, dass sich der Netzverkehr gleichmaessig
+    entsprechend dem Teilnehmerverhalten auf das ganze Netz
+    verteilt.
+  ISOLIERT ..................................................... = 2
+    ISOLIERT bedeutet, dass keine Anlage im Netz Verkehr zu
+    einer anderen Anlage im Netz hat.
+  SONST ........................................................ = 3
+    SONST bedeutet, dass Sie den Prozentsatz des Netzverkehrs
+    der eine, von Ihnen zu spezifizierende Anlage, verlaesst
+    selbst eingeben wollen.
+  
+0121  3
+Wollen Sie die Prozentsaetze des Netzverkehrs, der jede einzelne Anlage
+verlaesst, dokumentiert haben ?
+JA ----> 1 / NEIN ----> 0
+  
+0122  3
+Bilden mehrere Anlagen logische Einheiten im Sinne von Tandemanlagen? ?
+keine logische Einheit .................................... = 0
+eine oder mehrere logische Einheiten ...................... = 1
+  
+0123  1
+Wieviele Anlagen bilden die logische Einheit ## ?
+  
+0124  2
+ Hat die Anlage selbst Vermittlungsplaetze?
+ (JA -----> 1 / NEIN -----> 0 ) 
+0125  2   {Fuer HICOM80CM}
+ Folgende Softwareversionen stehen zur Verfuegung:
+ V3.3 ......................................... 1
+  
+0126  1
+  !!!! frei !!!
+  
+0127  5
+Waere die logische Einheit ## eine einzige Anlage, blieben fuer den "homogenen
+Fall" #####% des entstehenden Netzverkehrs in dieser imaginaeren Anlage.
+ (Falls an eine Anlage ausserhalb der logischen Einheit keine oder nur)
+ (sehr wenige Teilnehmer angeschlossen sind, ist Vorsicht geboten.    )
+Geben Sie den Prozentsatz fuer den vorliegenden Fall ein.
+  
+0128  1
+*** Falscher Konzentrationsfaktor der logischen Einheit! ***
+  
+0129  4
+Soll fuer eine Anlage der ANTEIL des NETZVERKEHRS,
+  der eine Anlage verlaesst, eingegeben werden ? ........... = 1
+Oder soll der ANTEIL der BELEGUNGEN im Netzverkehr,
+  die eine Anlage verlassen, eingegeben werden ? ........... = 2
+  
+0130  4
+Fuer welche Anlage wird der Prozentsatz des netzinternen Verkehrs, der
+die Anlage verlaesst angegeben ?
+ (Falls an eine Anlage keine oder nur sehr wenige Teilnehmer)
+ (angeschlossen sind, ist Vorsicht geboten.                 )
+  
+0131  3
+Fuer den "homogenen Fall" wuerden #####% des netzinternen Verkehrs, die
+Anlage verlassen.
+Geben Sie den Prozentsatz fuer den vorliegenden Fall ein.
+  
+0132  1
+*** Falscher Prozentsatz! ***
+  
+0133  4
+Fuer welche Anlage wird der Prozentsatz der Belegungen, die die Anlage
+netzintern verlassen, angegeben ?
+ (Falls an eine Anlage keine oder nur sehr wenige Teilnehmer)
+ (angeschlossen sind, ist Vorsicht geboten.                 )
+  
+0134  2
+Fuer den "homogenen Fall" wuerden #####% der Belegungen die Anlage verlassen.
+Geben Sie den Prozentsatz fuer den vorliegenden Fall ein.
+  
+0135  2
+Die Teilnehmer an dieser Anlage haben aber keinen kommenden 
+Externverkehr !
+  
+0136  3
+Wollen Sie die "logischen Verkehrsfluesse" zwischen den Anlagen des Netzes
+ausgegeben haben ?
+JA ----> 1 / NEIN ----> 0
+  
+0137  4
+Wie wird der gehende Externverkehr abgewickelt ?
+  jede Anlage selbst .................. = 1
+  nur eine Anlage fuer das gesamte Netz = 2
+  einige bestimmte Anlagen ............ = 3
+  
+0138  1
+Welche Anlage wickelt den gesamten gehenden Externverkehr ab ?
+  
+0139  2
+Soll die Anlage trotzdem kommenden Externverkehr abwickeln?
+ JA ----->1 / NEIN -----> 0
+  
+0140  1
+Welche Anlage erledigt fuer Anlage ### den gehenden Externverkehr ?
+  
+0141  1
+ !!! frei !!!
+  
+0142  1
+*** Wiederspruechliche Eingabe! ***
+  
+0143  9
+Wie wird der kommende Externverkehr zugefuehrt ?
+  Der kommende Externverkehr verteilt sich gleichmaessig
+  auf alle Anlagen des Netzes. .................................. = 1
+    Gleichmaessig bedeutet, dass jeder Anlage soviel kommender
+    Externverkehr zugefuehrt wird, wie ihr aufgrund von
+    Teilnehmerzahl und Teilnehmerverhalten (bzgl kommenden
+    Externverkehrs) anteilig zusteht.
+  Der kommende Externverkehr verteilt sich NICHT gleichmaessig
+  auf die Anlagen. .............................................. = 0
+  
+0144  1
+Wieviele Anlagen wickeln kommenden Externverkehr ab ?
+  
+0145  1
+!!!! frei !!!
+  
+0146  1
+Bitte ###.  Anlagennummer eingeben.
+  
+0147  1
+ !!!! frei !!!
+  
+0148  1
+*** Anlage wurde bereits eingegeben! ***
+  
+0149  1
+Wieviel Prozent des kommenden Externverkehrs wickelt die Anlage ### ab ?
+  
+0150  1
+*** Gesamtprozentsatz kleiner 100% ***
+  
+0151  1
+*** Gesamtprozentsatz groesser 100% ***
+  
+0152  1
+Wieviel Prozent des kommenden Externverkehrs werden mit Durchwahl abgewickelt ?
+  
+0153  2
+Sollen die gerichteten Buendelbelastungen ausgegeben werden ?
+JA ----> 1 / NEIN ----> 0
+  
+0154  7
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
++                                                                     +
+*    Programm zur Berechnung von RECHNER-                             *
++                                KOPPELNETZ-                          +
+*                            und BUENDEL-Belastung gestartet.         *
++              Version 3.000 vom 31.08.95                             +
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+  
+0155  1
+ !!!! frei !!!!
+  
+0156  1
+ !!!!! frei !!!!
+  
+0157  1
+  !!!! frei !!!!
+  
+0158  21
+Bitte geben Sie das Format der Ausgabe an.
+Einige Standardwerte zur Orientierung:
+  Schnelldrucker:
+    DINA4 laengs :  Zeilen      = 88, Spalten     =  80
+                    Linker Rand =  5, Oberer Rand =   0
+    DINA4 quer   :  Zeilen      = 60, Spalten     = 120
+                    Linker Rand =  0, Oberer Rand =   3
+    USA   laengs :  Zeilen      = 80  Spalten     =  85
+                    Linker Rand =  5, Oberer Rand =   0
+    USA   quer   :  Zeilen      = 60, Spalten     = 110
+                    Linker Rand =  0, Oberer Rand =   3
+ Schoendrucker:
+    DINA4 laengs :  Zeilen      = 66, Spalten     =  70
+                    Linker Rand = 11, Oberer Rand =   1
+  
+Werte des Schnelldruckers DINA4 laengs = 1
+Werte des Schnelldruckers DINA4 quer   = 2
+Werte des Schoendruckers DINA4 laengs  = 3
+Werte des Schnelldruckers USA  laengs  = 4
+Werte des Schnelldruckers USA  quer    = 5
+Werte selbst eingeben ................ = 6
+  
+0159  1
+Wieviele Zeilen pro Seite (min. 20) ?
+  
+0160  1
+Wieviele Spalten pro Zeile (min. 70) ?
+  
+0161  1
+Wieviele Zeilen fuer den oberen Rand ?
+  
+0162  1
+Wieviele Spalten fuer den linken Rand ?
+  
+0163  5
+  
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+               AUSGABE der Berechnungen in eine Datei
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+  
+0164  5
+Soll die Anzahl der Kanaele mit Standardwerten fuer Verlust und maximale
+Belastung pro Kanal berechnet werden (Nur fuer NETQUOTE!)?
+  Standardwert fuer Blockierung ................ = 1.0%
+  Standardwert fuer maximale Belastung pro Kanal = 0.8 Erl.
+JA ----> 1 / NEIN ----> 0
+  
+0165  1
+*** Die eingegebenen Werte sind nicht berechenbar! ***
+  
+0166  2
+Geben Sie die Blockierung in Prozent ein.
+(0.01% bis 50.00%)
+  
+0167  2
+Geben Sie die maximale Belastung pro Kanal in Erl. ein.
+(0.5 Erl. bis 0.999 Erl.)
+  
+0168  1
+Bitte geben Sie die Nummer der Anlage ein.
+  
+0169  2
+Sollen alle anderen Wege gemaess des modifizierten Weg korrigiert werden ?
+JA ----> 1 / NEIN ----> 0
+  
+0170 3  {Globale mehrfach vorkommende Texte}
+  
+*** Zu dieser Eingabe ist kein ausfuehrlicherer Text vorhanden! ***
+  
+0171  9
+Ein Weg wird gemaess des modifizierten Weges korrigiert heisst folgendes:
+Falls in einem Weg hoechstens 1 Anlage des modifizierten Weges vorkommt,
+bleibt dieser Weg unveraendert bestehen. Sonst sind die beiden Anlagen
+massgebend, die den groessten Wegteil einschliessen. Falls die beiden
+Anlagen nicht in der selben Reihenfolge wie im modifizierten Weg vorkommen
+und der modifizierte Weg "GERICHTET" ist, bleibt der Weg ebenfalls
+unveraendert bestehen. Sonst wird das Wegstueck, das diese beiden Anlagen
+einschliessen, durch das Wegstueck des modifizierten Weges ersetzt.
+  
+0172  1
+  !!!! frei !!!!
+  
+0173 1
+*** Die Spiegel-Datei ist fehlerhaft! (Zeile ####) ***
+  
+0174 1
+Aus wievielen "Gruppen" besteht das Netz ?
+  
+0175 1
+( Anzahl <= ### Gruppen )
+  
+0176 1
+Wieviele Anlagen gehoeren zur Gruppe ## ?
+  
+0177 1
+Bitte ##.te Anlage in Gruppe ## eingeben.
+  
+0178 2
+Wieviel Prozent des kommenden Externverkehrs fuer diese Gruppe
+kommen an der Anlage an ?
+  
+0179  10
+Wie wird der Gruppe ## der kommende Externverkehr zugefuehrt ?
+  Der kommende Externverkehr verteilt sich gleichmaessig
+  auf alle Anlagen des Gruppe .................................. = 1
+    Gleichmaessig bedeutet, dass jeder Anlage soviel kommender
+    Externverkehr zugefuehrt wird, wie ihr aufgrund von
+    Teilnehmerzahl und Teilnehmerverhalten (bzgl kommenden
+    Externverkehrs) anteilig zusteht.
+  Der kommende Externverkehr verteilt sich NICHT gleichmaessig
+  auf die Anlagen der Gruppe..................................... = 0
+  
+0180 1
+Es wurden nicht alle Anlagen angefuehrt !
+  
+0181  9
+Welche Struktur hat das Netz bzgl. kommenden Externverkehrs ?
+  Verteilt sich der kommende Externverkehr im ganzen Netz
+  oder besteht das Netz aus "Gruppen" bzgl. kommenden Externverkehrs ?
+  "Gruppenbildung" bedeutet, dass in einem Netz nicht alle Anlagen
+  die selbe Amtsrufnummer haben, und sich der kommende Amtsverkehr
+  nicht im ganzen Netz verteilen kann.
+  Verteilung im ganzen Netz .....................................  1
+  Gruppenbildung  ...............................................  2
+  
+0182  1
+Wieviele Anlagen haben kommende Externleitungen ?
+  
+0183  1
+Bitte ###.te Anlagennummer eingeben.
+  
+0184  1
+Die Anlage wurde bereits einmal genannt !
+  
+0185  2
+Bitte Prozentsatz des kommenden Externverkehrs angeben, der von
+der Anlage zugefuehrt wird.
+  
+0186  1
+Anlagentyp
+  
+0187  1
+ !!! frei !!!
+  
+0188  1
+Softwareversion
+  
+0189  1
+Version bis V3.2 oder nach V3.3
+  
+0190  2
+Sind an der Anlage Anrufuebernahmegruppen eingerichtet?
+ JA -------> 1 / NEIN -------> 0
+  
+0191  2
+Soll die Anlage einen Namen haben?
+JA -----> 1 / NEIN -----> 0
+
+0192  2
+Erledigt Anlage ### ihren Platzverkehr selber?
+JA ------> 1 / NEIN ------> 0
+  
+0301  4
+Sind die Anzahlen der technischen Ports ohne Vernetzung
+fuer alle Anlagen
+GLEICH?                               ------> 1
+UNTERSCHIEDLICH?                      ------> 2
+  
+0302  2
+Geben Sie die Anzahl der technischen Ports ohne
+Vernetzung fuer eine Anlage ein.
+  
+0303  2
+Geben Sie die Anzahl der technischen Ports ohne
+Vernetzung fuer Anlage ### ein.
+
+0304  3
+Sind die Grundkosten fuer alle Links 
+GLEICH?                               ------> 1
+UNTERSCHIEDLICH?                      ------> 2
+  
+0305  1
+Geben Sie die Grundkosten fuer eine Link ein.
+  
+0306  2
+Geben Sie die Grundkosten von Link ##### zwischen Knoten ### 
+und Knoten ### ein.
+  
+0307  4
+Sind die Kostenfaktoren fuer alle Links 
+GLEICH?                               ------> 1
+UNTERSCHIEDLICH?                      ------> 2
+INNERHALB EINES INTERVALLS VERTEILT?  ------> 3
+  
+0308  1
+Geben Sie den Kostenfaktor fuer eine Link ein.
+  
+0309  2
+Geben Sie den Kostenfaktor fuer die Link ##### zwischen Knoten ###
+und Knoten ### ein.
+  
+0310  17
+ACHTUNG!
+Bei der Eingabe der Link-Mindestgroesse sowie der Trunk-Reservation
+ist die folgende Fallunterscheidung zu beachten:
+  
+1. Fall: Netzneubau oder -erweiterung:
+         Mindestgroesse: Aus Zuverlaessigkeitsgruenden geforderte
+                         Untergrenze oder die Anzahl der bereits
+                         exitierenden Leitungen
+         TR = 0.
+  
+2. Fall: Ein bereits existierendes Netz soll mit PKA ausgewertet
+         werden:
+         Mindestgroesse: tatsaechliche Buendelgroesse
+         TR = tatsaechliche TR.
+  
+Ist die Mindestgroesse fuer alle Links gleich?
+JA -----> 1 / NEIN -----> 0
+  
+0311  1
+Geben Sie die Mindestgroesse fuer eine Link ein.
+  
+0312  2
+Geben Sie die Mindestgroesse fuer die Link ##### zwischen Knoten ###
+und Knoten ### ein.
+  
+0313  2
+Ist die Trunk Reservation fuer alle Links gleich?
+JA -----> 1 / NEIN -----> 0
+  
+0314  1
+Geben Sie die Trunk Reservation fuer eine Link ein.
+  
+0315  2
+Geben Sie die Trunk Reservation fuer die Link ##### zwischen Knoten ###
+und Knoten ### ein.
+  
+0316  2
+Ist der Grade of Service (GOS) fuer alle Verkehrspaare gleich?
+JA ------> 1 / NEIN ------> 0
+  
+0317  1
+Geben Sie den GOS fuer ein Verkehrspaar ein (0<GOS<1).
+  
+0318  1
+Geben Sie den GOS fuer das Verkehrspaar ### --> ### ein (0<GOS<1).
+  
+0319  4
+Gibt es bezueglich gehenden Externverkehrs mehrere Gruppen?
+(Eine Anlage kann nicht ueber eine einer anderen Gruppe 
+zugehoerigen Anlage gehenden Externverkehr abwickeln.)
+JA ------> 1 / NEIN ------> 0
+  
+0320  1
+Wieviele Gruppen gibt es bezueglich gehenden Externverkehrs?
+  
+0321  1
+Wieviele Anlagen gehoeren Gruppe ## an?
+  
+0322  1
+Geben Sie die Nummer der ###.ten Anlage in Gruppe ## ein.
+  
+0323  3
+Soll die Routingtabelle durch das Programm berechnet werden,
+oder moechten Sie selber diese Tabelle vorgeben?
+BERECHNEN ------> 1 / EINGEBEN ------> 0
+  
+0325  2
+Bitte geben Sie die Anzahl alternativer Wege von Anlage ### zu
+Anlage ### an (Anzahl <= 20).
+  
+0326  2
+Bitte geben Sie die ###.te Anlage auf dem ##.ten Weg von
+Anlage ### zu Anlage ### an.
+  
+0327  3
+Durch die Eingabe des Knotens ### fuer den ###.ten Weg von Anlage ###
+zu Anlage ### haben Sie folgende unzulaessige Schleife in der 
+Routingtabelle erzeugt:
+  
+0328  3
+Moechten Sie die Routingtabelle in Form von Wegen oder direkt als
+Tabelle eingeben?
+EINGABE VON WEGEN ------> 1 / EINGABE EINER TABELLE ------> 2
+  
+0329  2
+Wieviele Anlagen stehen alternativ als direkte Nachfolgerinnen von 
+Anlage ### auf dem Weg zu Anlage ### zur Verfuegung?
+  
+0330  2
+Bitte geben Sie die ###.te direkte Nachfolgerin von Anlage ###
+auf dem Weg zu Anlage ### an.
+  
+0331  3
+Aus Ihrer Eingabe der Routingtabelle resultieren die folgenden
+alternativen Nachfolgeanlagen von Anlage ### mit Anlage ### als
+Ziel in der Reihenfolge:
+  
+0332  2
+Wollen Sie diese Reihenfolge modifizieren?
+JA ------> 1 / NEIN ------> 0
+  
+0333  2
+Bitte geben Sie die ##.te alternative Nachfolgeanlage von 
+Anlage ### mit Anlage ### als Ziel an.
+  
+0334  3
+Die von Ihnen eingegebene Anlage ### gehoert nicht zu den von Ihnen
+noch zu sortierenden Anlagen. Aus folgenden Anlagen koennen Sie Ihre
+Auswahl treffen:
+  
+0335  3
+Die von Ihnen eingebene Routingtabelle enthaelt unzulaessige
+Schleifen. Bitte die Werte der Routingtabelle fuer alle
+Verkehrspaare mit Anlage ### als Zielanlage neu eingeben.
+  
+0336  1
+(Nur die ersten 50 Schleifen sind angegeben.)
+  
+0337  1
+Auf den Wegen zu Anlage ### existieren folgende Schleifen:
+  
+338   5
+Moechten Sie zur Fortfuehrung der Eingabe 
+   - DIE LETZTE ANLAGE NEU EINGEBEN                     ------> 1
+   - DEN LETZTEN WEG KOMPLETT NEU EINGEBEN              ------> 2
+   - ALLE WEGE DES VERKEHRSPAARES ###->### NEU EINGEBEN ------> 3
+   - ALLE WEGE ZU ANLAGE ### NEU EINGEBEN?              ------> 4
+  
+0339  2
+Die von Ihnen eingegebene Anlage ### gehoert nicht zur Gruppe ##.
+Bitte Eingabe wiederholen.
+  
+0340  6
+Fuer die von Ihnen eingegebene Anlage ### erledigt Anlage ### den
+gehenden Amtsverkehr. Diese Anlage ist jedoch nicht in der
+Gruppe ## enthalten. Moechten Sie die Eingabe der Gruppe ## 
+wiederholen oder saemtliche Gruppen sowie die zu jeder Anlage
+gehoerige Anlage mit gehenden Amtsleitungen neu eingeben?
+AKTUELLE GRUPPE NEU ------> 1 / KOMPLETTE NEUEINGABE ------> 2
+  
+0341  2
+Bitte geben Sie die untere Grenze des Intervalls fuer die 
+Knotenkosten an.
+  
+0342  2
+Bitte geben Sie die obere Grenze des Intervalls fuer die 
+Knotenkosten an.
+  
+0343  2
+Bitte geben Sie die untere Grenze des Intervalls fuer die 
+Linkgrundkosten an.
+  
+0344  2
+Bitte geben Sie die obere Grenze des Intervalls fuer die 
+Linkgrundkosten an.
+  
+0345  2
+Bitte geben Sie die untere Grenze des Intervalls fuer die 
+Linkkostenfaktoren an.
+  
+0346  2
+Bitte geben Sie die obere Grenze des Intervalls fuer die 
+Linkkostenfaktoren an.
+
+0347  2
+Ist die maximale Anzahl alternativer Wege fuer alle Verkehrspaare gleich?
+JA ------> 1 / NEIN ------> 0
+
+0348  2
+Bitte geben Sie die Anzahl alternativer Wege pro Verkehrspaar vor,
+die maximal verwendet werden sollen (1<=Anzahl<=Min{Anlagenzahl-1,20}).
+ 
+0349  3
+Bitte geben Sie die Anzahl alternativer Wege fuer das Verkehrspaar ### ---> ###
+vor, die maximal berechnet werden sollen (1<=Anzahl<=Min{Anlagenzahl-1,20}).
+
+0350  2
+Haben alle Links die gleiche Modulgroesse?
+JA ------> 1 / NEIN ------> 0
+
+0351  1
+Bitte geben Sie die Modulgroesse fuer die Links ein.
+
+0352  2
+Bitte geben Sie die Modulgroesse fuer Link ##### von Anlage ###
+zu Anlage ### ein.
+
+0353  2
+Welche Routingstrategie moechten Sie verwenden?
+SOC ------> 1 / Extended SOC ------> 2
+
+0354  3
+Sollen die von NetQuote (Siemens) berechneten Wege als Erstwege
+verwendet werden, sofern sie einen kuerzesten Weg darstellen?
+Ja ------> 1 / Nein ------> 0
+
+0355  3
+Soll bei einer Konnektivitaet von eins diese erhoeht werden,
+sofern die Topologie dies zulaesst?
+Ja ------> 1 / Nein ------> 0
+
+0356  3
+Das angegebene Projekt existiert noch nicht. Soll es neu
+eingefuehrt werden?
+Ja ------> 1 / Nein ------> 0
+
+0357  2
+Ist die Anzahl der reservierten Datenkanaele fuer alle Links gleich?
+JA -----> 1 / NEIN -----> 0
+  
+0358  1
+Geben Sie die Anzahl der reservierten Datenkanaele fuer eine Link ein.
+  
+0359  2
+Geben Sie die Anzahl der reservierten Datenkanaele fuer die Link zwischen
+Knoten ### und Knoten ### ein.
+
+0360  5
+Gilt fuer alle Paare von Gruppen bezueglich gehenden Externverkehrs der
+gleiche Anteil (in Prozent) an gehendem Externverkehr der Anlagen der 
+Quellgruppe, der ueber die andere Gruppe des Paares zum Amt gefuehrt 
+werden soll (least cost routing)?
+Ja ------> 1 / Nein ------> 0
+
+0361  3
+Bitte geben Sie den Anteil (in Prozent) an gehendem Externverkehr der 
+Anlagen einer Quellgruppe an, der ueber jeweils eine andere Gruppe zum 
+Amt gefuehrt werden soll (least cost routing).
+
+0362  3
+Bitte geben Sie den Anteil (in Prozent) an gehendem Externverkehr der 
+Anlagen der Quellgruppe ##### an, der ueber die Gruppe ##### zum Amt 
+gefuehrt werden soll (least cost routing).
+
+0363  2
+Welche Anlage in Gruppe ##### ist fuer die Weiterleitung des least cost 
+routing Verkehrsanteils aus Gruppe ##### zum Amt zustaendig?
+
+0364  4
+Gelten zwischen allen Gruppen bezueglich gehenden Externverkehrs die 
+gleichen Kosten (in Kosteneinheiten pro Minute) fuer Verbindungen 
+ueber das oeffentliche Netz?
+Ja ------> 1 / Nein ------> 0
+
+0365  3
+Bitte geben Sie die Kosten (in Kosteneinheiten pro Minute) fuer 
+Verbindungen zwischen zwei Gruppen bezueglich gehenden Externverkehrs 
+ueber das oeffentliche Netz ein.
+
+0366  3
+Bitte geben Sie die Kosten (in Kosteneinheiten pro Minute) fuer 
+Verbindungen zwischen Gruppe ##### und Gruppe ##### (beide bezueglich 
+gehenden Externverkehrs) ueber das oeffentliche Netz ein.
+
+0367  4
+Gelten zwischen allen Gruppen bezueglich gehenden Externverkehrs die 
+gleichen Blockierungen fuer Verbindungswuensche ueber das oeffentliche 
+Netz?
+Ja ------> 1 / Nein ------> 0
+
+0368  3
+Bitte geben Sie die Blockierung fuer Verbindungswuensche zwischen zwei 
+Gruppen bezueglich gehenden Externverkehrs ueber das oeffentliche Netz 
+ein (0<=b<=1).
+
+0369  3
+Bitte geben Sie die Blockierung fuer Verbindungswuensche zwischen 
+Gruppe ##### und Gruppe ##### (beide bezueglich gehenden Externverkehrs) 
+ueber das oeffentliche Netz ein (0<=b<=1).
+
+0370  7
+Fuer die Konvertierung der an den Gespraechsdauern orientierten Nutzungskosten 
+des oeffentlichen Netzes in Kostenfaktoren, die mit den monatlichen Mietkosten
+der Kanaele verglichen werden koennen, wird der Hauptverkehrsstundenfaktor be-
+noetigt. Dieser Faktor gibt die taegliche Belastung einer Anlage bezogen auf die
+Last der Hauptverkehrsstunde an.
+Ist der Hauptverkehrsstundenfaktor fuer alle Anlagen gleich?
+Ja ------> 1 / Nein ------> 0
+
+0371  1
+Bitte geben Sie den Hauptverkehrsstundenfaktor fuer eine Anlage an.
+
+0372  1
+Bitte geben Sie den Hauptverkehrsstundenfaktor fuer Anlage ##### an.
+
+0373  1
+Wieviele (Geschaefts-) Tage sollen pro Monat angenommen werden?
+
+0374  2
+Soll eine automatische Topologieverbesserung durchgeführt werden?
+Ja ------> 1 / Nein ------> 0
+
+0375  3
+Durch den von Ihnen gewaehlten Wert ergibt sich fuer eine Gruppe ein gehender
+Externverkehr von mehr als 100% ueber andere Gruppen zum Amt. Bitte waehlen
+Sie einen kleineren Wert.
+
+0376  3
+Durch die von Ihnen gewaehlten Werte ergibt sich fuer die Gruppe ### ein 
+gehender Externverkehr von mehr als 100% ueber andere Gruppen zum Amt. Bitte 
+waehlen Sie kleinere Werte.
+
+0400  1
+EINGABEFEHLER! Es kann nicht mehr Gruppen als Anlagen geben!
+  
+0401  2
+EINGABEFEHLER! Die Gruppen koennen nicht zusammen mehr Anlagen haben
+als das gesamte Netz.
+  
+0402  2
+EINGABEFEHLER! Die Gruppen koennen nicht zusammen weniger Anlagen haben
+als das gesamte Netz.
+  
+0403  1
+EINGABEFEHLER! Die Anlage ### wurde bereits eingegeben.
+  
+0404  4
+EINGABEFEHLER! Die Anlage ### wurde in dem ###.ten Weg von
+Anlage ### zu Anlage ### bereits verwendet. Durch die erneute
+Benutzung erzeugen Sie eine unzulaessige Schleife. Bitte die
+Eingabe wiederholen.
+  
+0405  2
+EINGABEFEHLER! Die von Ihnen eingegebene Anlage ### ist nicht direkt
+von der vorhergehenden Anlage ### erreichbar. Bitte Eingabe wiederholen.
+  
+0406  3
+EINGABEFEHLER! Sie haben die Ausgangsanlage ### als eigene Nachfolgerin
+eingegeben! Anlage ### kann so nicht erreicht werden. Bitte Eingabe
+wiederholen.
+  
+0407  1
+EINGABEFEHLER! Die Anlage ### existiert nicht. Bitte Eingabe wiederholen.
+  
+0408  2
+EINGABEFEHLER! Das Netz besteht aus ### Anlagen. Es kann also nicht ###
+verschiedene Nachfolgerinnen von Anlage ### geben.
+
+0409  3
+EINGABEFEHLER! Bitte geben Sie mindestens eine Gruppenanzahl von 2 ein,
+da Sie sich fuer mehr als eine Gruppe bezueglich gehenden Externverkehrs 
+entschieden haben.
+
+0410  10
+
+*************************************************************************
+ACHTUNG! Sie haben die Option gewaehlt, dass die von NetQuote berechneten
+Wege als Erstwege verwendet werden, sofern sie jeweils ein kuerzester Weg
+sind. Die von NetQuote erstellte Routingtabelle verstoesst jedoch gegen
+die Forderung, dass Externverkehr die diesbezueglich definierte Gruppe 
+nicht verlassen darf. Die obige von Ihnen gewaehlte Option kann deshalb
+nicht beruecksichtigt werden.
+*************************************************************************
+
+
+0500  1  {Ausgabe Texte}
+Die oberste Ebene bilden folgende vollvermaschten Anlagen:@
+  
+0501  1
+An Anlage ### haengen folgende Anlagen:@
+  
+0502  1
+Der Weg von Anlage ### zu@
+  
+0503  1
+  Anlage ### : DIREKT@
+  
+0504  1
+  Anlage ### : ueber #@
+  
+0505  7
+\ VON |#@
+ \    |#@
+  \   |#@
+   \  |#@
+    \ |#@
+NACH \|#@
+______|#@
+  
+0506  1
+  AMT |#@
+  
+0507  8
+**********************************************************************
+*                                                                    *
+* Ergebnis-Ausgabe des Programms                                     *
+*     zur Berechnung der Rechner- / Koppelnetz- / Buendel-Belastung  *
+* Programmversion 3.000 vom 31.08.95                                 *
+*                                                                    *
+*                                                                    *
+**********************************************************************
+  
+0508  1
+Das Netz besteht aus ### Anlagen.@
+  
+0509  1
+Das Netz sieht wie folgt aus:@
+  
+0510  1
+Es wurden folgende Wege geaendert:@
+  
+0511  1
+Die Wege zwischen den Anlagen sehen wie folgt aus:@
+  
+0512  3
+ NR     NAME                 TYP                   VERKEHRSWERTE fuer
+                                                 Netz-   Externverkehr   Summe
+                                                 verkehr kommend gehend
+  
+0513  1
+###  ############  ############################  ######  ######  ######  ######
+  
+ 514  5
+    NAME      Teil-   Anteil  ANATE    DIGITE    DIGITE mit     AUN
+              nehmer  ANATE                      Direktruf-   Gruppen
+                                                  Funktion
+                                                 und/oder
+                                                 CHESE-Tln.
+  
+0515  1
+############  #####  ######%  #####     #####      #####       #####
+  
+0516  1
+ Nr                  Anrufuebernahmegruppen/Tln
+  
+0517  3
+ Nr                   Belegungen je Teilnehmer pro Stunde
+        Internverkehr   Netzverkehr      Externverkehr      Summe
+        gehend  komm.   gehend   komm.  kommend  gehend
+  
+0518  1
+###     #####   #####   #####   #####   #####    #####      #####
+  
+0519  1
+Der Netzverkehr verteilt sich homogen im NETZ.
+  
+0520  1
+Die Anlagen innerhalb des Netzes haben keinen Verkehr untereinander.
+  
+0521  5
+Folgende  Anlagen  bilden  eine  logische  Einheit,   im  Sinne  einer
+Tandemanlage:
+#@
+Es wurde  angenommen,  dass  #####%  des,   in  der  logischen Einheit
+erzeugten Netzverkehrs, in der logischen Einheit bleiben.
+  
+0522  3
+Es wurde fuer Anlage ### angenommen,  dass #####% des Netzverkehrs die
+Anlage verlaesst. Der Verkehr, der die Anlage verlaesst, verteilt sich
+gleichmaessig auf alle anderen Anlagen.
+  
+0523  3
+Es wurde fuer Anlage ###  angenommen,  dass  #####% der Netzbelegungen
+die Anlage  verlassen.  Die  Belegungen,  die  die  Anlage  verlassen,
+verteilen sich gleichmaessig auf alle anderen Anlagen.
+  
+0524  4
+            Prozentsatz des  Prozentsatz der      gehende Belegungen
+            NETZVERKEHRS,    BELEGUNGEN im Netz-  im Netzverkehr
+            der jede Anlage  verkehr, die jede    je Teilnehmer/Stunde
+            verlaesst        Anlage verlassen
+  
+0525  1
+Anlage ###      #####             #####                  #####
+  
+0526  4
+Es wurde  mit  einer  mittleren  Belegungsdauer  von  ### Sekunden  im
+anlageninternen  Verkehr,   mit  einer  mittleren  Belegungsdauer  von
+### Sekunden im  Netzverkehr, mit  ### Sekunden  im Externverkehr und
+### Sekunden Belegungsdauer der Vermittlungsplaetze gerechnet.
+  
+0527  1
+Jede Anlage wickelt ihren gehenden Externverkehr selbst ab.
+  
+0528  1
+Anlage ### wickelt den gesamten gehenden Externverkehr ab.
+  
+0529  1
+Die Anlage ### wickelt ihren gehenden Externverkehr selbst ab.
+  
+0530  1
+Fuer Anlage ### wickelt Anlage ### den gehenden Externverkehr ab.
+  
+0531  4
+  Gruppenr.   Durchwahl     Anlage       %Satz des     zugeordn.
+   bzgl.         %                       abgewick.    Anlage mit
+ komm. Ext.                              komm. Ext.     VPL
+  verkehrs                               verkehrs
+  
+0532  1
+    ###         ######   ############      #######         ###
+  
+0533  3
+ NR     NAME       Teilnehmer    VERKEHRSWERTE fuer
+                                Netz-   Externverkehr   Summe
+                                verkehr kommend gehend
+  
+0534  1
+Anlage ###   #####
+  
+0535  1
+###  ############  ###########  ######  ######  ######  ######
+  
+0536  1
+*****  Logische Verkehrsfluesse zwischen den Anlagen  *****
+  
+0537  1
+*****  Gerichtete Buendelbelastungen (in ERL.)  *****
+  
+0538  1
+*****  BUENDELBELASTUNGEN (in ERL.)  *****
+  
+0539  3
+ NR  KOPPELNETZ-           RECHNER-BELASTUNGEN
+      BELASTUNG                 vermittl.   Grund-      Summe        Punkte
+                                Last        last
+  
+0540  1
+### ####### Erl. ######## BHCA ###### Erl. ###### Erl. ###### Erl.  ######## @
+  
+0541  7
+\ VON |#@
+ \    |#@
+  \   |#   AMT    |@
+   \  |#@
+    \ |#@
+NACH \|#@
+______|#@
+  
+0542  2
+*****  Anzahl der gerichteten Kanaele  *****
+(bei #####% Verlust und maximal #### Erl. pro Kanal)
+  
+0543  2
+*****  Anzahl der bidirektionalen Kanaele  *****
+(bei #####% Verlust und maximal #### Erl. pro Kanal)
+  
+0544  1
+* ################################################################## *
+  
+0545  1
+**********************************************************************
+  
+0546  1
+Im Netz wurden ## logische Einheiten definiert.
+  
+0547  1
+                                                             Seite ### @
+  
+0548  2
+Das Netz besteht aus ## Gruppen bzgl. kommenden Externverkehrs.
+  
+0549  7
+\     |#@
+ \    |#@
+  \   |#   AMT    |@
+   \  |#@
+    \ |#@
+     \|#@
+______|#@
+  
+0550  7
+\     |#@
+ \    |#@
+  \   |#@  
+   \  |#@
+    \ |#@
+     \|#@
+______|#@
+  
+0551 4
+  
+Innerhalb der Gruppe werden ######% des kommenden Externverkehrs ueber
+Vermittlungsplaetze abgewickelt.
+  
+0552 3
+Innerhalb der Gruppe kommt an jeder Anlage soviel Externverkehr an,
+wie es dem Verkehrsaufkommen bzgl. kommenden Externverkehrs dieser
+Anlage entspricht.
+  
+0553  3
+Innerhalb der Gruppe wird der kommende Externverkehr den Anlagen NICHT
+ihrem Verkehrsaufkommen (bzgl. kommenden Externverkehrs) entsprechend
+zugefuehrt.
+  
+0554 2
+Innerhalb der Gruppe wurde beim Vermitteln MIT Rueckwaertsausloesen
+gerechnet.
+  
+0555  1
+Der Verkehr innerhalb der logischen Einheit ## verteilt sich homogen.
+  
+0556  2
+Der Verkehr,  der eine logische  Einheit  verlaesst,  verteilt sich
+gleichmaessig auf alle anderen Anlagen im Netz.
+  
+0557  4
+Der Verkehr innerhalb der logischen Einheit ##  verteilt sich NICHT homogen.
+Es wurde fuer Anlage ### angenommen, dass #####% des erzeugten Netz-
+verkehrs in der Anlage bleiben. Daraus ergibt sich, dass #####% des
+erzeugten Netzverkehrs aus der Anlage in die logische Einheit fliessen.
+  
+0558  1
+Alle Anlagen der Gruppe haben Vermittlungsplaetze.
+  
+0559  1
+KOPPELNETZBELASTUNG durch VPL's
+  
+0560  1
+ NR.       Erl.   
+
+0561  2
+Innerhalb der Gruppe wurde beim Vermitteln OHNE Rueckwaertsausloesen
+gerechnet.
+
+
+
+0998  1
+ ENDE !!! 
+
+
+0999  1
+ ENDE !!!

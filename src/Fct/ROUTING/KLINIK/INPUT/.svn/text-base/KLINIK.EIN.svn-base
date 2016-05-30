@@ -1,0 +1,546 @@
+ 
+$* Sollen die Eingaben fuer spaetere Wiederbenutzung in eine                      
+$* Datei gespiegelt werden ?                                                      
+$* JA ----> 1 / NEIN ----> 0                                                      
+$* Falls Sie ein Netz mit geringfuegigen Aenderungen mehrmals berechnen           
+$* wollen, geben Sie hier am besten 'JA' ein.                                     
+$* Sie koennen die enstandene Datei dann  abaendern, wobei die mit '$*'           
+$* gekennzeichneten Kommentare als Anhaltspunkte dienen.                          
+$* Es ist moeglich eigene Kommentare in die Spiegel-Datei einzufuehren.           
+         1
+$* Werden die Ausgaben in eine Datei gewuenscht (sonst auf den Bildschirm) ?      
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         1
+         0
+$* Bitte Gesamtanzahl der Anlagen im Netz angeben.                                
+        10
+$* Bitte Netztopologie eingeben.                                                  
+$*   Ein vollvermaschtes Netz ........................ = 1                        
+$*   Ein Sternnetz ................................... = 2                        
+$*   Einstufig verknuepfte vollvermaschte Teilnetze .. = 3                        
+$*   Einstufig verknuepfte sternfoermige Teilnetze ... = 4                        
+$*   Mehrstufig verknuepfte Teilnetze ................ = 5                        
+$*   Sie geben die Wege zwischen den Anlagen selbst an = 6                        
+         5
+         2
+         3
+         2
+         1
+         1
+         3
+         2
+         3
+         1
+         1
+         4
+         1
+         7
+         0
+         2
+         2
+         2
+         1
+         9
+        10
+         1
+         8
+$* Wollen Sie das eben eingegebene Netz an einigen Stellen modifizieren ?         
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         1
+         7
+         0
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         1
+         9
+         0
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         1
+        10
+         1
+         2
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         2
+         4
+         0
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         2
+         5
+         0
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         2
+         6
+         0
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         2
+         8
+         0
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         2
+        10
+         0
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         3
+        10
+         1
+         2
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         4
+         7
+         1
+         2
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         4
+         9
+         1
+         1
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         4
+        10
+         1
+         2
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         5
+         7
+         1
+         2
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         5
+         9
+         1
+         1
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         5
+        10
+         1
+         2
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         6
+         7
+         1
+         2
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         6
+         9
+         2
+         2
+         7
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         6
+        10
+         1
+         2
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         7
+         8
+         1
+         2
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         8
+         9
+         2
+         2
+         7
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+         2
+         8
+        10
+         1
+         2
+         1
+$* Wollen Sie noch weitere Wege modifizieren ?                                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         0
+$* Soll die Matrix der Wege innerhalb des Netzes in eine Datei ausgegeben         
+$* werden ?                                                                       
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+$* Soll die Netztopologie ausgegeben werden ?                                     
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+$* Geben Sie an,                                                                  
+$*   ob keine Anlage einen Namen haben soll = 1                                   
+$*   nur einige Anlagen Namen haben sollen  = 2                                   
+$*   alle Anlagen Namen haben sollen ...... = 3                                   
+         3
+Rotes Haus  
+CLI         
+Augenklinik 
+Kinderneurop
+Med. Polokli
+Frauenklinik
+Kinderklinik
+Karl Tauchni
+Kinderchirur
+Kinderkl. Do
+$* Haben alle Anlagen gleichviele Sprachteilnehmer ?                              
+$* JA ----> 1 / NEIN ----> 0                                                      
+         0
+      1032
+      2496
+       872
+       100
+       200
+       984
+       660
+        90
+        70
+        70
+$* Soll mit Standardwerten fuer mittlere Belegungsdauern fuer Teilnehmer          
+$* und fuer Vermittlungsplaetze gerechnet werden ?                                
+$*   Standardwert fuer anlageninternen Verkehr ... =  50 sec.                     
+$*   Standardwert fuer anlagenexternen Netzverkehr = 100 sec.                     
+$*   Standardwert fuer Externverkehr ............. = 110 sec.                     
+$*   Standardwert fuer den Vermittlungsplatz ..... =  20 sec.                     
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+$* Wollen Sie auch die Rechnerbelastung der Anlagen berechnet haben ?             
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+$*                                                                                
+$* Besteht das Netz aus lauter Anlagen vom selben Typ ?                           
+$* JA ----> 1 / NEIN ----> 0                                                      
+         0
+$* Anlagentyp                                                                     
+         3
+$* Softwareversion                                                                
+         4
+$* Anlagentyp                                                                     
+         3
+$* Softwareversion                                                                
+         4
+$* Anlagentyp                                                                     
+         3
+$* Softwareversion                                                                
+         4
+$* Anlagentyp                                                                     
+         2
+$* Softwareversion                                                                
+         5
+$* Anlagentyp                                                                     
+         2
+$* Softwareversion                                                                
+         5
+$* Anlagentyp                                                                     
+         3
+$* Softwareversion                                                                
+         4
+$* Anlagentyp                                                                     
+         3
+$* Softwareversion                                                                
+         4
+$* Anlagentyp                                                                     
+         2
+$* Softwareversion                                                                
+         5
+$* Anlagentyp                                                                     
+         2
+$* Softwareversion                                                                
+         5
+$* Anlagentyp                                                                     
+         2
+$* Softwareversion                                                                
+         5
+$* Haben alle Anlagen das gleiche Verhaeltnis zwischen angeschlossenen            
+$* ANATEs und DIGITEs ?                                                           
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+ 0.00000000000000e+00
+$* Sind digitale Endgeraete mit Direktruf-Funktion und/oder CHESE-Teilnehmer      
+$*   an keiner Anlage vorhanden ......... = 1                                     
+$*   an einigen Anlagen im Netz vorhanden = 2                                     
+$*   an allen Anlagen im Netz vorhanden   = 3                                     
+$* !! Es wird angenommen, dass alle Teilnehmer digitale                           
+$* Teilnehmer sind. !!                                                            
+         1
+$* Sind Anrufuebernahmegruppen                                                    
+$*   an keiner Anlage vorhanden ......... = 1                                     
+$*   an einigen Anlagen im Netz vorhanden = 2                                     
+$*   an allen Anlagen im Netz vorhanden   = 3                                     
+$* !! Es wird angenommen, dass alle Teilnehmer digitale                           
+$* Teilnehmer sind. !!                                                            
+         1
+$* Verhalten sich alle Sprachteilnehmer bzgl. Netzverkehr gleich ?                
+$* JA ----> 1 / NEIN ----> 0                                                      
+         0
+ 4.15000000000000e-02
+ 4.04000000000000e-02
+ 5.50000000000000e-02
+ 7.00000000000000e-02
+ 7.00000000000000e-02
+ 3.24000000000000e-02
+ 5.09000000000000e-02
+ 7.00000000000000e-02
+ 7.00000000000000e-02
+ 7.00000000000000e-02
+$* Verhalten sich alle Teilnehmer bzgl. kommenden Amtsverkehrs gleich ?           
+$* JA ----> 1 / NEIN ----> 0                                                      
+         0
+ 2.84000000000000e-02
+ 2.85000000000000e-02
+ 2.68000000000000e-02
+ 2.50000000000000e-02
+ 2.50000000000000e-02
+ 2.95000000000000e-02
+ 2.73000000000000e-02
+ 2.50000000000000e-02
+ 2.50000000000000e-02
+ 2.50000000000000e-02
+$* Verhalten sich alle Teilnehmer bzgl. gehenden Amtsverkehrs gleich ?            
+$* JA ----> 1 / NEIN ----> 0                                                      
+         0
+ 2.16000000000000e-02
+ 2.15000000000000e-02
+ 2.32000000000000e-02
+ 2.50000000000000e-02
+ 2.50000000000000e-02
+ 2.05000000000000e-02
+ 2.27000000000000e-02
+ 2.50000000000000e-02
+ 2.50000000000000e-02
+ 2.50000000000000e-02
+$* Wie verteilt sich der Netzverkehr ?                                            
+$*   HOMOGEN ...................................................... = 1           
+$*     HOMOGEN bedeutet, dass sich der Netzverkehr gleichmaessig                  
+$*     entsprechend dem Teilnehmerverhalten auf das ganze Netz                    
+$*     verteilt.                                                                  
+$*   ISOLIERT ..................................................... = 2           
+$*     ISOLIERT bedeutet, dass keine Anlage im Netz Verkehr zu                    
+$*     einer anderen Anlage im Netz hat.                                          
+$*   SONST ........................................................ = 3           
+$*     SONST bedeutet, dass Sie den Prozentsatz des Netzverkehrs                  
+$*     der eine, von Ihnen zu spezifizierende Anlage, verlaesst                   
+$*     selbst eingeben wollen.                                                    
+         3
+$* Bilden mehrere Anlagen logische Einheiten im Sinne von Tandemanlagen? ?        
+$* keine logische Einheit .................................... = 0                
+$* eine oder mehrere logische Einheiten ...................... = 1                
+         0
+$* Soll fuer eine Anlage der ANTEIL des NETZVERKEHRS,                             
+$*   der eine Anlage verlaesst, eingegeben werden ? ........... = 1               
+$* Oder soll der ANTEIL der BELEGUNGEN im Netzverkehr,                            
+$*   die eine Anlage verlassen, eingegeben werden ? ........... = 2               
+         1
+         2
+ 2.50000000000000e+01
+$* Wollen Sie die "logischen Verkehrsfluesse" zwischen den Anlagen des Netzes     
+$* ausgegeben haben ?                                                             
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+$* Wie wird der gehende Externverkehr abgewickelt ?                               
+$*   jede Anlage selbst .................. = 1                                    
+$*   nur eine Anlage fuer das gesamte Netz = 2                                    
+$*   einige bestimmte Anlagen ............ = 3                                    
+         1
+$* Welche Struktur hat das Netz bzgl. kommenden Externverkehrs ?                  
+$*   Verteilt sich der kommende Externverkehr im ganzen Netz                      
+$*   oder besteht das Netz aus "Gruppen" bzgl. kommenden Externverkehrs ?         
+$*   "Gruppenbildung" bedeutet, dass in einem Netz nicht alle Anlagen             
+$*   die selbe Amtsrufnummer haben, und sich der kommende Amtsverkehr             
+$*   nicht im ganzen Netz verteilen kann.                                         
+$*   Verteilung im ganzen Netz .....................................  1           
+$*   Gruppenbildung  ...............................................  2           
+$*                                                                                
+         1
+$* Wie wird der kommende Externverkehr zugefuehrt ?                               
+$*   Der kommende Externverkehr verteilt sich gleichmaessig                       
+$*   auf alle Anlagen des Netzes. .................................. = 1          
+$*     Gleichmaessig bedeutet, dass jeder Anlage soviel kommender                 
+$*     Externverkehr zugefuehrt wird, wie ihr aufgrund von                        
+$*     Teilnehmerzahl und Teilnehmerverhalten (bzgl kommenden                     
+$*     Externverkehrs) anteilig zusteht.                                          
+$*   Der kommende Externverkehr verteilt sich NICHT gleichmaessig                 
+$*   auf die Anlagen. .............................................. = 0          
+         0
+$* Wieviele Anlagen haben kommende Externleitungen ?                              
+         2
+         1
+ 5.00000000000000e+01
+         2
+ 5.00000000000000e+01
+$* Wieviel Prozent des kommenden Externverkehrs werden mit Durchwahl abgewickelt ?
+ 8.00000000000000e+01
+$* Verteilung der Vermittlungsplaetze in Gruppe ## .                              
+         2
+$* Welche Anlage erledigt den Platzverkehr fuer Anlage ### ?                      
+         1
+$* Welche Anlage erledigt den Platzverkehr fuer Anlage ### ?                      
+         2
+$* Version bis V3.2 oder nach V3.3                                                
+         0
+$* Sollen die gerichteten Buendelbelastungen ausgegeben werden ?                  
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+$* Soll die Anzahl der Kanaele mit Standardwerten fuer Verlust und maximale       
+$* Belastung pro Kanal berechnet werden (Nur fuer NETQUOTE!)?                     
+$*   Standardwert fuer Blockierung ................ = 1.0%                        
+$*   Standardwert fuer maximale Belastung pro Kanal = 0.8 Erl.                    
+$* JA ----> 1 / NEIN ----> 0                                                      
+         1
+$* Gibt es bezueglich gehenden Externverkehrs mehrere Gruppen?                    
+$* (Eine Anlage kann nicht ueber eine einer anderen Gruppe                        
+$* zugehoerigen Anlage gehenden Externverkehr abwickeln.)                         
+$* JA ------> 1 / NEIN ------> 0                                                  
+         0
+$* ACHTUNG!                                                                       
+$* Bei der Eingabe der Link-Mindestgroesse sowie der Trunk-Reservation            
+$* ist die folgende Fallunterscheidung zu beachten:                               
+$*                                                                                
+$* 1. Fall: Netzneubau oder -erweiterung:                                         
+$*          Mindestgroesse: Aus Zuverlaessigkeitsgruenden geforderte              
+$*                          Untergrenze oder die Anzahl der bereits               
+$*                          exitierenden Leitungen                                
+$*          TR = 0.                                                               
+$*                                                                                
+$* 2. Fall: Ein bereits existierendes Netz soll mit PKA ausgewertet               
+$*          werden:                                                               
+$*          Mindestgroesse: tatsaechliche Buendelgroesse                          
+$*          TR = tatsaechliche TR.                                                
+$*                                                                                
+$* Ist die Mindestgroesse fuer alle Links gleich?                                 
+$* JA -----> 1 / NEIN -----> 0                                                    
+         1
+$* Geben Sie die Mindestgroesse fuer eine Link ein.                               
+         0
+$* Haben alle Links die gleiche Modulgroesse?                                     
+$* JA ------> 1 / NEIN ------> 0                                                  
+         1
+$* Bitte geben Sie die Modulgroesse fuer die Links ein.                           
+        30
+$* Ist die Trunk Reservation fuer alle Links gleich?                              
+$* JA -----> 1 / NEIN -----> 0                                                    
+         1
+$* Geben Sie die Trunk Reservation fuer eine Link ein.                            
+         0
+$* Ist die Anzahl der reservierten Datenkanaele fuer alle Links gleich?           
+$* JA -----> 1 / NEIN -----> 0                                                    
+         1
+$* Geben Sie die Anzahl der reservierten Datenkanaele fuer eine Link ein.         
+         1
+$* Ist der Grade of Service (GOS) fuer alle Verkehrspaare gleich?                 
+$* JA ------> 1 / NEIN ------> 0                                                  
+         1
+$* Geben Sie den GOS fuer ein Verkehrspaar ein (0<GOS<1).                         
+ 1.00000000000000e-02
+$* Sind die Anzahlen der technischen Ports ohne Vernetzung                        
+$* fuer alle Anlagen                                                              
+$* GLEICH?                               ------> 1                                
+$* UNTERSCHIEDLICH?                      ------> 2                                
+         1
+$* Geben Sie die Anzahl der technischen Ports ohne                                
+$* Vernetzung fuer eine Anlage ein.                                               
+        20
+$* Sind die Grundkosten fuer alle Links                                           
+$* GLEICH?                               ------> 1                                
+$* UNTERSCHIEDLICH?                      ------> 2                                
+         1
+$* Geben Sie die Grundkosten fuer eine Link ein.                                  
+ 1.00000000000000e+01
+$* Sind die Kostenfaktoren fuer alle Links                                        
+$* GLEICH?                               ------> 1                                
+$* UNTERSCHIEDLICH?                      ------> 2                                
+$* INNERHALB EINES INTERVALLS VERTEILT?  ------> 3                                
+         1
+$* Geben Sie den Kostenfaktor fuer eine Link ein.                                 
+ 1.00000000000000e+00
+$* Welche Routingstrategie moechten Sie verwenden?                                
+$* SOC ------> 1 / Extended SOC ------> 2                                         
+         2
+$* Sollen die von NetQuote (Siemens) berechneten Wege als Erstwege                
+$* verwendet werden, sofern sie einen kuerzesten Weg darstellen?                  
+$* Ja ------> 1 / Nein ------> 0                                                  
+         1
+$* Soll bei einer Konnektivitaet von eins diese erhoeht werden,                   
+$* sofern die Topologie dies zulaesst?                                            
+$* Ja ------> 1 / Nein ------> 0                                                  
+         1
+$* Ist die maximale Anzahl alternativer Wege fuer alle Verkehrspaare gleich?      
+$* JA ------> 1 / NEIN ------> 0                                                  
+         1
+$* Bitte geben Sie die Anzahl alternativer Wege pro Verkehrspaar vor,             
+$* die maximal verwendet werden sollen (1<=Anzahl<=Min{Anlagenzahl-1,20}).        
+         3
+$* Soll eine automatische Topologieverbesserung durchgeführt werden?              
+$* Ja ------> 1 / Nein ------> 0                                                  
+         0

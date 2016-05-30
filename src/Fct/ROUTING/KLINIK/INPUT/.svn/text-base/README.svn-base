@@ -1,0 +1,52 @@
+Erklaerung der Dateien im Unterverzeichnis klinik/input/
+
+bests/		-----	Unterverzeichnis mit ein paar "besten" Laeufen
+			(selbst hin kopiert...)
+klinik.afl	-----	von eda erzeugt: kommender Amtsverkehr
+			wird eingelesen mit read_AFL (siehe interface.c)
+klinik.akb	-----	von eda erzeugt: Kosten & Blockierungsmatrix des Amtsknotens
+klinik.crb	-----	von eda erzeugt: Crank Back Zulaessigkeit
+klinik.ein	-----	Eingabedatei fuer automatischen eda-Aufruf
+klinik.fkt	-----	von eda erzeugt: wichtig fuer pka, fuer uns unwichtig
+klinik.geh	-----	von eda erzeugt: Gruppenaufteilung
+klinik.gos	-----	von eda erzeugt: Grade of Service, die verlangte Guete 
+			wird eingelesen mit read_GOS (siehe interface.c)
+klinik.hld	-----	von eda erzeugt: mittlere Gespraechsdauern
+klinik.lcr	-----	von eda erzeugt: least cost routing, fuer uns unwichtig
+klinik.lnl	-----	von eda erzeugt: Verbindungsmatrix OHNE Dimensionierung 
+klinik.lnl.i	-----	von odm/ord erzeugt, (im Verzeichnis ord, anschliessend 
+			hierhin kopiert), Verbindungsmatrix MIT Dimensionierung
+			wird eingelesen mit read_LNL (siehe interface.c)
+			und mit read_LNLG (siehe pnopt_user.c, damit werden die
+			Grafik-Informationen des Netzes fuer pnopt initialisiert) 
+klinik.nbl	-----	von eda erzeugt: Grundlast..., fuer uns unwichtig
+klinik.ndc.i	-----	von eda erzeugt: Anlagentypen, fuer uns unwichtig
+klinik.net	-----	von pnopt_user.c erzeugt bei save net. enthaelt die aktuellen
+			Grafikpositionen jedes Knotens
+klinik.nfl	-----	von eda erzeugt: Verkehrsmatrix fuer internen und gehenden Verkehr
+			wird eingelesen mit read_NFL (siehe interface.c)
+
+ALLE *.nrt* -Dateien enthalten Routingtabellen!
+-----------------------------------------------
+klinik.nrt.0	-----	von Hand erstellte Kopie fuer user_init (siehe pnopt_user.c), 
+			war die von eda erzeugte Datei klinik.nrt.i (steht aber auch 
+			im Kopf der Datei)			
+klinik.nrt.1	-----	von Hand erstellte Kopie der von ord erstellten RT, 
+klinik.nrt.2	-----	von Hand erstellte Kopie einer alten "best" RT
+klinik.nrt.3	-----	von Hand erstellte Kopie einer alten "best" RT
+klinik.nrt.best	-----	von user_bewerte (siehe pnopt_user.c) erstellte Datei
+			mit der besten Routingtabelle des letzten Optimierungslaufes
+klinik.nrt.i	-----	Dieser Name wird einmal am Anfang von eda benutzt um hier
+			eine Routingtabelle abzulegen. Da aber genau dieser name 
+			benutzt wird um die RT dem pka zu uebergeben schreibt hier 
+			user_bewerte (pnopt_user.c) oder andere Routinen ihre
+			temporaere Routingtabellen hin, um danach einen pka Aufruf 
+			zu starten
+klinik.pkin	-----	von new_project erzeugte Datei, enthaelt die Menueeingaben f. pka
+klinik.pko.best	-----	von user_bewerte erzeugte Kopie des Ergebnisses des pka Laufes
+			fuer die beste RT, enthaelt EEB's u.v.a.m.
+klinik.pko.i	-----	zu klinik.nrt.i gehoerende Ausgabe von pka
+klinik.pkp.best	-----	pka-Protokolldatei der besten RT, enthaelt u.a. die Anzahl
+			der Iterationen
+klinik.pkp.i	-----	zu klinik.nrt.i gehoerende Ausgabe von pka
+klinik.rst.i	-----	vollstaendige Ausgabe aller Parcel Informationen

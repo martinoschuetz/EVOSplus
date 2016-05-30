@@ -1,0 +1,17 @@
+/************************************************************************/
+/*  Dateiname  :  nodecosts                                             */
+/*  Funktion   :  - Systemdatei                                         */
+/*  Inhalt     :  - Kostenfaktoren fuer die Anlagen                     */
+/************************************************************************/
+
+.BEGIN
+
+max #TP    Grund-    Gestell-    Schrank-    Modul-      Modul-
+           kosten    kosten      kosten      groesse1    groesse2
+-------    ------    --------    --------    --------    --------
+   256      33.7        0           0           -1          -1
+   512      35.9        1           0          256          -1
+  1024      46.2        1           0          256          -1
+  2048      90.3        1          1.9         256         768
+ 20480     337.3        1          1.9         256         768
+.END

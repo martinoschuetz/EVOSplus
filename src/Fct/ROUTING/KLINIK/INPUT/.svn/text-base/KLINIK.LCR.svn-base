@@ -1,0 +1,15 @@
+/************************************************************************/
+/*  Dateiname  :  klinik.lcr                                            */
+/*  Funktion   :  - Eingabe fuer ODM, ORD und PKA                       */
+/*  Inhalt     :  - Anteile des gehenden Externverkehrs von Anlagen     */
+/*                  einer Gruppe ueber die zustaendige Anlage einer     */
+/*                  anderen Gruppe zum Amt (least cost routing)         */
+/************************************************************************/
+
+.BEGIN
+   1  Anzahl der Gruppen
+
+von     ueber   zust.   Verkehrs-
+Gruppe  Gruppe  Anlage  anteil %
+------  ------  ------  --------
+.END

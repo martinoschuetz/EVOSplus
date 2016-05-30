@@ -1,0 +1,33 @@
+- Bei noReco werden Teilstrings zusammengewuerfelt --> neue Rekombination
+- (1+1)-ES mit 1/5 Erfolgsregel implementieren.
+- Fitness vs. Auswertung (doppelte Vorkommen) auch gemittelt etc.
+- Mittelung nicht in der Form (x_1+...+x_n)/n sonder x_1/n+...x_n/n.
+  Dies ergibt auch dann einen Wert wenn x_1+...+x_n = 0.
+- Parallel-Verzeichnis; migration und send darein, oder
+  besser ein Migrations-Modul. Hier bin ich mir nicht sicher ob
+  die algorithmische Seite stimmt.
+- Allgemein fuer alles Module mit Parametern. Z.B. auch Selektion.
+- Schnittstelle zur Oberflaeche verbessern.
+- Alter (Startalter =0) sollte leicht durch Veraenderung der
+  Selektion implementierbar sein.
+- p mal mit p und nicht mit gamma steuern.
+- Bei sigma funktioniert die Steuerung mit sigma nicht.
+
+- Parallel-Version funktioniert nicht.
+  Mit knuth laeuft nichts mit den anderen Zufallszahlengeneratoren
+  immerhin etwas.
+- getopt kann raus. Gehoert zum Standard.
+- Mit CC treten noch eine Reihe von Fehlern auf.
+- Viele stellen sind kein ANSI-C, insbesondere bei den Zufallszahlengeneratoren.
+- Zur Steuerung der Anzahl zu mutierender ganzzahliger Werte koennte
+  man nach Trint ein Possionverteilung nehmen. Der steuernde Parameter
+  Lambda koennte noch im Sinne einer Schrittweite adaptiert werden.
+  (Tau = 1/Sqrt(n), lambda_i' = lambda_i Exp(N(0,Tau).)
+  Hierzu muss man Lambda auf die Individuenebene ziehen,
+  was man vielleicht uber die p_i machen koennte.
+
+- Windows-Version
+	- PI noch fest kodiert.
+	- drand48 raus, besser vernuenftige ifdefs.
+    - init.c Zeile 261, free ausdokumentiert
+	- init.c, define.h D_SUFFIX eingefuegt.

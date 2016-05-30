@@ -1,0 +1,30 @@
+/************************************************************************/      
+/*  Dateiname  :  klinik/input/klinik.akb                               */      
+/*  Funktion   :  - Eingabe fuer ODM, ORD und PKA                       */      
+/*  Inhalt     :  - Kostenmatrix des Amtsknotens                        */      
+/*                - Blockierungsmatrix des Amtsknotens                  */      
+/************************************************************************/      
+                                                                                
+.BEGIN                                                                          
+  10  Anzahl der Anlagen                                                        
+   1  Anzahl der Gruppen                                                        
+   0  Geschaeftstage pro Monat                                                  
+                                                                                
+        Hvs-                                                                    
+Anlage  Faktor                                                                  
+------  ------                                                                  
+     1    0.00
+     2    0.00
+     3    0.00
+     4    0.00
+     5    0.00
+     6    0.00
+     7    0.00
+     8    0.00
+     9    0.00
+    10    0.00
+
+von     zu      Kosten    Kosten-   Amts-                                       
+Gruppe  Gruppe  pro Min.  faktor    block.                                      
+------  ------  -------  ---------  ------                                      
+.END                                                                            
