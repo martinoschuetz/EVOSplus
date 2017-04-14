@@ -2,15 +2,15 @@
 /*                                                           	*/
 /*  Copyright (c) 1993                                       	*/
 /*  Martin Schuetz                                             	*/
-/*  Computer Science Department, LSXI       			*/
+/*  Computer Science Department, LSXI       					*/
 /*  University of Dortmund                                   	*/
 /*  Baroper Str. 301                                         	*/
-/*  D-44221 Dortmund						*/
-/*  Germany							*/
-/*								*/
-/*  e-mail: schuetz@edna.informatik.uni-dortmund.de		*/
-/*  	    schuetz@ls11.informatik.uni-dortmund.de		*/
-/*								*/
+/*  D-44221 Dortmund											*/
+/*  Germany														*/
+/*																*/
+/*  e-mail: schuetz@edna.informatik.uni-dortmund.de				*/
+/*  	    schuetz@ls11.informatik.uni-dortmund.de				*/
+/*																*/
 /*  Permission is hereby granted to copy all or any part of  	*/
 /*  this program for free distribution.   The author's name  	*/
 /*  and this copyright notice must be included in any copy.  	*/
